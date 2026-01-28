@@ -34,7 +34,9 @@ jobs:
           channel-priority: true
       
       # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@e3d420b9a40765f278d3651507e812014bfc7407
+      - uses: JavidDitty/setup-cintent@3638849e94bdb037f0a405375686a8550e6df904
+        with:
+          nonblocking: true
 
       - name: Conda info and list
         run: |
